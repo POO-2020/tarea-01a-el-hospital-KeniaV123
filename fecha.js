@@ -1,11 +1,10 @@
-export default class Fecha{
+ export default class Fecha{
 
-    /**
-    * 
-    * @param {number} dia  1...32
-    * @param {number} mes  1...12
-    * @param {number} año Año  
-    */
+ /**
+ * @param {Dia} dia
+ * @param {Mes} mes
+ * @param {año} año
+ */
 
    constructor(dia,mes,año){
        this.fecha = new Date(año, mes-1, dia);
@@ -47,8 +46,8 @@ export default class Fecha{
        return `${this.diaSemana[this.fecha.getDay()]}`
    }
 }
-
 /*
+
 let art1 = new Fecha (17,2,2019);
 console.log(art1.getFecha());
 console.log(art1.getDiaFecha());
@@ -56,4 +55,4 @@ console.log(art1.getAños());
 console.log(art1.getDias());
 console.log(art1.getSemanas());
 console.log(art1.getMeses());
-*/ 
+*/

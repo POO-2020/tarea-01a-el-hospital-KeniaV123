@@ -1,4 +1,11 @@
-class Tiempo {
+export default class Tiempo {
+
+
+    /**
+ * @param {number} hora
+ * @param {number} minutos
+ * @param {string} periodo
+ */
 
     constructor( hora, minutos, periodo ){
         this.hora = hora;
@@ -27,7 +34,8 @@ class Tiempo {
         }
     }
 }
-
+ /*
 let tiempo1 = new Tiempo(5, 50, "PM");
 console.log(tiempo1.getFormato12());
 console.log(tiempo1.getFormato24());
+*/
