@@ -12,7 +12,7 @@ class Main {
   }
 
   probarCita() {
-    let pruebaCita = new Cita(new Fecha(22, 1, 2001), 
+    let pruebaCita = new Cita (new Fecha(22, 1, 2001), 
 new Tiempo(6, 45, 'PM'), 
 new Doctor(new Nombre("Juan", "Michel", "Vargas")), 
 new Paciente(new Nombre("Kenia", "Villa", "Serratos")));

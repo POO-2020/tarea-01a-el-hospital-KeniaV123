@@ -37,7 +37,7 @@ export default class Hospital {
 
   listarCitas() {
     this.citas.forEach((cita, i) => {
-      console.log(`${i} ${cita.getCita()}`);
+      console.log(`${i} ${cita.getCita()}` );
     });
   }
 }
